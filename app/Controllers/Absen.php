@@ -60,4 +60,13 @@ class Absen extends BaseController
         session()->setFlashdata('success', 'Data Berhasil Ditambahkan');
         return redirect()->to('/absen_web');
     }
+
+    public function delete($id)
+    {
+
+        $this->modelAbsen->delete(['id' => $id]);
+
+        session()->setFlashdata('success', 'Data Berhasil Dihapus');
+        return redirect()->to('/absen_web');
+    }
 }

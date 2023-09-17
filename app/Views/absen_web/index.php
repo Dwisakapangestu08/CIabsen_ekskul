@@ -62,10 +62,10 @@
                             </td>
                             <td class="w3-center">
                                 <button type="submit" class="btn btn-warning">
-                                    <a class="edit" href="/absen_web/<?php echo $a['id']; ?>">Edit</a>
+                                    <a class="edit" href="/absen_web/<?= $a['id']; ?>">Edit</a>
                                 </button>
                                 <button type="submit" class="w3-button w3-round-large w3-red">
-                                    <a class="hapus" href="<?php echo $a['id']; ?>">Hapus</a>
+                                    <a class="hapus" href="/absen_web/delete/<?= $a['id']; ?>">Hapus</a>
                                 </button>
                             </td>
                         </form>

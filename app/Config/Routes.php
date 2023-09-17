@@ -11,3 +11,4 @@ $routes->get('/absen_web', 'Absen::index');
 $routes->get('/absen_web/(:num)', 'Absen::update/$1');
 $routes->get('/absen_web/insert', 'Absen::insert');
 $routes->post('/absen_web/insert/save', 'Absen::save');
+$routes->get('/absen_web/delete/(:num)', 'Absen::delete/$1');

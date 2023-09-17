@@ -9,7 +9,7 @@
                 <div class="row shadow-lg bg-body-tertiary rounded p-5">
                     <div class="col-md-6">
                         <div class="card-body text-center">
-                            <img src="/img/smk.jpg" class="img-fluid mt-2 rounded" width="55%;">
+                            <img src="<?= base_url(); ?>/img/smk.jpg" class="img-fluid mt-2 rounded" width="55%;">
                         </div>
                     </div>
                     <div class="col-md-6">
